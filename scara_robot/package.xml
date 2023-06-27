@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>scara_robot</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="shambhav9r@todo.todo">shambhav9r</maintainer>
+  <license>TODO: License declaration</license>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_xacro</buildtool_depend>
+  
+  <build_depend>rclpy</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>urdf_xml_parser</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>scipy</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>xacro</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  
+  
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>urdf_xml_parser</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>scipy</exec_depend>
+  <exec_depend>tf2</exec_depend>
+  
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_m0del_path = "/home/ros2_ws/install/scara_robot/share"/>
+  </export>
+</package>
