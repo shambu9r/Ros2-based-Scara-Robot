@@ -9,7 +9,7 @@ This tutorial is made to understand the basic concepts of controlling a robot us
 - [Write a custom controller for the SCARA robot](resources/controller_tutorial.md)
 - [Set up the SCARA manipulator to run with ros2_control and Gazebo](resources/gazebo_tutorial.md)
 
-# SCARA KINEMATICS IS IN : - (scara_robot/src)
+ [SCARA KINEMATICS](scara_robot/src)
 
 
 ![scara model](resources/scara_model.png)
