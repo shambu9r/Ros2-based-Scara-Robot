@@ -1,5 +1,5 @@
 # Ros2-based-Scara-Robot
-# B-20
+
 The [ros2_control](https://control.ros.org) framework is a realtime control framework designed for general robotics applications that gains more and more attention both for research and industrial purposes. An overview of the ros2_control framework can be found [here](resources/r2c_overview.md).
 
 This tutorial is made to understand the basic concepts of controlling a robot using ros2_control. In particular, it describes how to :
